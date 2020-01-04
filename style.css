@@ -1,0 +1,29 @@
+a {
+	color: green;
+}
+
+a[target="_blank"] {
+	color: red;
+}
+
+#second-div :nth-child(even) {
+	color: red;
+}
+/* ovako mi je najbolje nekako da uradim
+mada moze i drugacije recimo nth-child(formula za parne
+i neparne potomke!!) */
+
+#second-div :nth-of-type(2n+2) {
+	color: blue;
+}
+
+#first-div > p::after {
+	content: "- NEW";
+	color: yellow;
+}
+
+body > p:last-of-type:hover {font-style: italic;}
+
+
+	
+	
